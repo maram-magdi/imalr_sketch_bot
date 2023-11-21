@@ -10,7 +10,7 @@ const settings = {
 
 const sketch = () => {
   return () => {
-    background (0);
+    background (255, 0, 0);
     circle(width/2, height/2, 50);
   };
 };
